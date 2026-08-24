@@ -19,5 +19,5 @@ func main() {
 
 	//* ------------------------------------------ *//
 	values := [5]int {6, 9, 3, 5, 7}
-	fmt.Print(values)
+	fmt.Print("Values:", values)
 }
