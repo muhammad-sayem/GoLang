@@ -33,7 +33,7 @@ func main() {
 	fmt.Println(calculate(50, 40, sub))
 	fmt.Println(calculate(10, 2, multiply))
 
-	//* Annonymus Callback Function *//
+	//* Anonymous Callback Function *//
 
 	result1 := calculate(60, 30, func(x int, y int) int {
 		return x + y
